@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="ApFSrQ" name="SimpleEQ" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              cppLanguageStandard="17">
   <MAINGROUP id="BDhkDA" name="SimpleEQ">
     <GROUP id="{D5D7C4FF-9A12-99A4-B4C7-6AE5921AB5CA}" name="Source">
       <FILE id="pv3s15" name="PluginProcessor.cpp" compile="1" resource="0"
-            file="Source/PluginProcessor.cpp"/>
+            file="Source/PluginProcessor.cpp" xcodeResource="0"/>
       <FILE id="tNX6xk" name="PluginProcessor.h" compile="0" resource="0"
-            file="Source/PluginProcessor.h"/>
+            file="Source/PluginProcessor.h" xcodeResource="0"/>
       <FILE id="hx3a1L" name="PluginEditor.cpp" compile="1" resource="0"
-            file="Source/PluginEditor.cpp"/>
-      <FILE id="jqLz8z" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+            file="Source/PluginEditor.cpp" xcodeResource="0"/>
+      <FILE id="jqLz8z" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"
+            xcodeResource="0"/>
     </GROUP>
   </MAINGROUP>
   <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
